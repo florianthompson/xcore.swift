@@ -10,7 +10,6 @@ Pod::Spec.new do |s|
   s.resources             = 'Sources/*.xcassets'
   s.requires_arc          = true
   s.ios.deployment_target = '8.0'
-  s.pod_target_xcconfig   = { 'OTHER_SWIFT_FLAGS' => '-DXCORE_ENVIRONMENT_${CONFIGURATION}' }
   s.dependency 'SDWebImage', '~> 3.7'
   s.dependency 'TZStackView', '~> 1.0'
   s.dependency 'BEMCheckBox', '~> 1.0'
