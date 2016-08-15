@@ -44,7 +44,7 @@ extension CALayer {
     /// - parameter point: The point to use to detect color.
     ///
     /// - returns: UIColor of the specified point.
-    public func color(OfPoint point: CGPoint) -> UIColor {
+    public func color(ofPoint point: CGPoint) -> UIColor {
         let width = 1
         let height = 1
         let bitsPerComponent = 8
