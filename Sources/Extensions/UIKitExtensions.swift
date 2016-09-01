@@ -226,7 +226,7 @@ public extension UIView {
 
     // Credit: http://stackoverflow.com/a/23157272
 
-    func addBorder(edges edges: UIRectEdge, color: UIColor = UIColor.whiteColor(), thickness: CGFloat = 1, padding: UIEdgeInsets) -> [UIView] {
+    public func addBorder(edges edges: UIRectEdge, color: UIColor = UIColor.whiteColor(), thickness: CGFloat = 1, padding: UIEdgeInsets = .zero) -> [UIView] {
         var borders = [UIView]()
         let metrics = ["thickness": thickness, "paddingTop": padding.top, "paddingLeft": padding.left, "paddingBottom": padding.bottom, "paddingRight": padding.right]
 
